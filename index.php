@@ -114,7 +114,11 @@ if(!isset($_SESSION["logged"])) {
 
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="assets/JS/script.js"></script>
+    <script type="text/javascript" src="assets/JS/script.js"></script>
+    <!-- <script type="text/javascript">
+        var costMonth = <?php json_encode($CostMonth); ?>;
+        console.log(costMonth);
+    </script> -->
 </script>
 </body>
 </html>

@@ -280,6 +280,7 @@
 .extended-function-items {
     height: 32px;
     font-size: 1.2rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -317,6 +318,7 @@
 .setting-function-items {
     height: 32px;
     font-size: 1.2rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -359,6 +361,7 @@
 .question-function-items {
     height: 32px;
     font-size: 1.2rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -407,6 +410,7 @@
 .notification-function-items {
     height: 60px;
     font-size: 1.2rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -856,14 +860,13 @@
     text-align: center;
 }
 .debt-items__title {
-    width: 200px;
+    width: 250px;
     text-align: left;
     padding-left: 15px;
 }
 .debt-items__cus-name {
-    width: 200px;
-    text-align: left;
-    padding-left: 15px;
+    width: 150px;
+    text-align: center;
 }
 .debt-items__money {
     width: 150px;
@@ -1408,15 +1411,19 @@
     align-items: center;
 }
 .second-footer__prev {
+    text-decoration: none;
     color: #9e9e9e;
 }
 .second-footer__count-paging {
+    text-decoration: none;
+    color: #333;
     padding: 2px 8px;
     font-weight: 600;
     border: 1px solid #e0e0e0;
     margin: 0 10px;
 }
 .second-footer__next {
+    text-decoration: none;
     color: #9e9e9e;
 }
 
@@ -1873,7 +1880,7 @@
     text-align: center;
 }
 .second-inventory-table__box3 {
-    width: 500px;
+    width: 350px;
     text-align: left;
     padding-left: 20px;
 }
@@ -1883,10 +1890,14 @@
     padding-right: 20px;
 }
 .second-inventory-table__box5 {
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
 .second-inventory-table__box6 {
+    width: 200px;
+    text-align: center;
+}
+.second-inventory-table__box7 {
     width: 150px;
     text-align: center;
 }
@@ -1991,8 +2002,11 @@
     padding-right: 20px;
 }
 
-
-
+/* curren page */
+.current-page {
+    border-width: 2px;
+    font-weight: 700;
+}
 
 
 
